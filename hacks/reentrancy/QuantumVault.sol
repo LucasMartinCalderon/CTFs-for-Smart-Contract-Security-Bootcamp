@@ -3,6 +3,7 @@ pragma solidity ^0.8.20;
 
 /**
  * @title QuantumVault
+ * @author Lucas Martin Calderon, Pentestify LTD
  * Scenario: In a technologically advanced era, the QuantumVault offers secure storage for quantum tokens.
  * This contract contains a vulnerability. Can you identify and exploit it?
  * Hint: The way funds are withdrawn seems sequential, but what if it's interrupted?
