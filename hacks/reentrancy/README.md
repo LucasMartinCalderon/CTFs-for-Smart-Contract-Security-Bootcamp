@@ -35,3 +35,5 @@ In a world where quantum computing and blockchain technology have merged, the Qu
 Through this challenge, you will learn about the reentrancy vulnerability, how it can be exploited, and the importance of secure coding practices in smart contract development. Reflect on the use of reentrancy guards and the checks-effects-interactions pattern to mitigate such vulnerabilities.
 
 Good luck, and may the quantum force be with you!
+
+Created by [lmc_security](https://www.x.com/lmc_security) at [Pentestify](https://www.pentestify.io)
