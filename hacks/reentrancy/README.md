@@ -36,4 +36,4 @@ Through this challenge, you will learn about the reentrancy vulnerability, how i
 
 Good luck, and may the quantum force be with you!
 
-Created by [lmc_security](https://www.x.com/lmc_security) at [Pentestify](https://www.pentestify.io)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40cloudposse)](https://twitter.com/lmc_security)
