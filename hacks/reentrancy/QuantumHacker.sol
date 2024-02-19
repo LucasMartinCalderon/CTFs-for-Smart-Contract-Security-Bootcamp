@@ -8,6 +8,7 @@ interface IQuantumVault {
 
 /**
  * @title QuantumHacker
+ * @author Lucas Martin Calderon, Pentestify LTD
  * Scenario: As a cunning hacker in the quantum era, you've spotted a flaw in the QuantumVault.
  * Your goal is to exploit this flaw to empty the vault.
  * Question: Reflect on how re-entrancy might be a threat to contracts. How does it work?
