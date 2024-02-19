@@ -23,3 +23,5 @@ Solidity contracts store data in a linear, predictable manner. This challenge in
    - Create another new file named `AdvancedSpacePoacher.sol` and paste the provided AdvancedSpacePoacher contract code.
 
 3. **Compile the Contracts:** Use the Solidity Compiler in Remix to compile both
+
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40lmc_security)](https://twitter.com/lmc_security)
