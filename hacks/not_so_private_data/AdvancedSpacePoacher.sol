@@ -2,13 +2,13 @@
 pragma solidity ^0.8.20;
 
 /**
- * Advanced Space Poacher
- * 
+ * @title Advanced Space Poacher
  * Objective: Exploit the storage layout of the Advanced Space Zoo to uncover the secret feeding schedules.
- * 
+ * @author Lucas Martin Calderon, Pentestify LTD
  * Reflection: How does understanding Solidity's storage layout help in accessing supposedly inaccessible data?
  * Challenge: Use your knowledge of Ethereum storage to construct and execute a direct storage access.
  */
+
 
 contract AdvancedSpacePoacher {
     address public spaceZooAddress;
