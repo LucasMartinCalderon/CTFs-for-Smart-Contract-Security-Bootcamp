@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 /**
- * Advanced Space Zoo Contract
- * 
+ * @title Advanced Space Zoo Contract
+ * @author Lucas Martin Calderon, Pentestify LTD
  * Objective: Uncover the secret feeding schedules of the galaxy's most mystical creatures.
  * Challenge: The feeding schedules are stored securely. Or so we thought. Can you access them?
  * 
