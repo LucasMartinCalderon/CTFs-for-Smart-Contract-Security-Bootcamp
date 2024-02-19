@@ -36,4 +36,4 @@ Through this challenge, you will learn about the reentrancy vulnerability, how i
 
 Good luck, and may the quantum force be with you!
 
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Lucas%20Martin%20Calderon)](https://twitter.com/lmc_security)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40lmc_security)](https://twitter.com/lmc_security)
