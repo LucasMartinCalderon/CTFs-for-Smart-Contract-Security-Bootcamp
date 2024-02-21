@@ -35,3 +35,6 @@ The Quantum Realm, a place of immense power, is guarded by the Quantum Gate. How
 
 - Successfully exploiting the QuantumGate to become the guardian.
 - Gaining a deeper understanding of smart contract vulnerabilities and their mitigations.
+
+
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40lmc_security)](https://twitter.com/lmc_security)
