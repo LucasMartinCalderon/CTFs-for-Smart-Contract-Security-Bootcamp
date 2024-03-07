@@ -19,8 +19,8 @@ interface IThroneOfChaos {
 contract EternalRuler {
     IThroneOfChaos public throneOfChaos;
 
-    constructor(IThroneOfChaos _throneOfChaos) {
-        throneOfChaos = _throneOfChaos;
+    constructor(address _throneOfChaos) {
+        throneOfChaos = IThroneOfChaos(_throneOfChaos); 
     }
 
     function seizeControl() public payable {
