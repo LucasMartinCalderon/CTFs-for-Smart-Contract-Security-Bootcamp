@@ -14,7 +14,7 @@ contract MysticGallerySafe {
     using ECDSA for bytes32;
 
     address public curator;
-    mapping(address => mapping(uint256 => bool)) public approvedArtists;
+    mapping(address artists => mapping(uint256 nonce => bool used)) public approvedArtists;
     uint256 public nonce;
 
     event ArtworkSubmitted(address indexed artist, string artwork, uint256 nonce);
