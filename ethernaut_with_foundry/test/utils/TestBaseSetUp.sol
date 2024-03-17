@@ -6,7 +6,7 @@ import "forge-std/Test.sol";
 import "./TestUtilities.sol";
 import "../../src/Ethernaut.sol";
 
-abstract contract TestSetUp is Test {
+abstract contract TestBaseSetUp is Test {
     Ethernaut public ethernaut;
     TestUtilities public utils;
 
