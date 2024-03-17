@@ -137,3 +137,8 @@ What you need to do is to
 3. Implement the logic to solve the challenge inside `setupLevel` between `startPrank` and `stopPrank`
 4. Run the test!
 
+## Acknowledgements and Credits
+I thank OpenZeppelin, StErMi, FrankieIsLost, and overthewire.org for open-sourcing and contributing to these challenges and setup.
+
+## How to contribute
+Feel free to PR to add more challenges in levels!
