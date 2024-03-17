@@ -28,7 +28,7 @@ abstract contract TestBaseSetUp is Test {
         userLabels[1] = "Player";
     }
 
-    function setUp() public {
+    function setUp() public virtual {
         require(address(levelFactory) != address(0), "please set up levelFactory");
 
         ethernaut = new Ethernaut();
