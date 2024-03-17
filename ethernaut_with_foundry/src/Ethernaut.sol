@@ -184,7 +184,7 @@ contract Ethernaut is Ownable {
         address indexed level
     );
 
-    function createLevelInstance(Level _level) public payable {
+    function createLevelInstance(Level _level) public payable returns(address){
         // Ensure level is registered.
         require(registeredLevels[address(_level)], "This level doesn't exists");
 
@@ -202,9 +202,11 @@ contract Ethernaut is Ownable {
 
         // Retrieve created instance via logs.
         emit LevelInstanceCreatedLog(msg.sender, instance, address(_level));
+
+        return instance; 
     }
 
-    function submitLevelInstance(address payable _instance) public {
+    function submitLevelInstance(address payable _instance) public returns(bool) {
         // Get player and level.
         EmittedInstanceData storage data = emittedInstances[_instance];
         require(
@@ -225,12 +227,15 @@ contract Ethernaut is Ownable {
             );
             // Notify success via logs.
             emit LevelCompletedLog(msg.sender, _instance, address(data.level));
+
+            return true; 
         } else {
             statistics.submitFailure(
                 _instance,
                 address(data.level),
                 msg.sender
             );
+            return false; 
         }
     }
 }
