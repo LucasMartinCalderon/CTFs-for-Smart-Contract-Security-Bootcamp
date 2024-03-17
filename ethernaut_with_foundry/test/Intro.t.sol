@@ -2,8 +2,9 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {Intro} from "../src/levels/Intro.sol";
 import {TestBaseSetUp} from "./utils/TestBaseSetUp.sol";
+import {Intro} from "../src/levels/Intro.sol";
+import {IntroFactory} from "../src/levels/IntroFactory.sol";
 
 
 abstract contract TestIntro is TestBaseSetUp {
