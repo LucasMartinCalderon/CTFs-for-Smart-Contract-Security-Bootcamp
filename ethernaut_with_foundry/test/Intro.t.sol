@@ -2,7 +2,8 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {Intro} from "../src/Intro.sol";
+import {Intro} from "../src/levels/Intro.sol";
+
 
 contract IntroTest is Test {
     Intro public intro;
@@ -11,7 +12,7 @@ contract IntroTest is Test {
         intro = new Intro("password");
     }
 
-    function exploitCTF() internal override {
+    function exploitCTF() internal {
         
     }
 }
